@@ -10,3 +10,9 @@ vim.opt.smarttab = true    -- Use Tab key for indentation intelligently
 vim.opt.expandtab = true   -- Convert tab presses into spaces
 vim.opt.tabstop = 8        -- Tabs display as 8 spaces to distinguish them from 4-space indents
 vim.opt.softtabstop = 0    -- Prevent mixing of spaces/tabs when backspacing
+
+-- yanking lines to clipboard
+vim.opt.clipboard:append("unnamedplus")
+
+--keymaps 
+vim.keymap.set("n", "<leader>e", ":Explore<CR>", { noremap = true, silent = true })
