@@ -1,6 +1,6 @@
 
 vim.g.mapleader = " "
-vim.g.background = "light"
+vim.g.background = "dark"
 
 vim.wo.number = true
 vim.wo.relativenumber = true
